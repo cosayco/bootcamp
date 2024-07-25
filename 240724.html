@@ -1,0 +1,129 @@
+<!DOCTYPE html><!-- Para que el motor de busqueda sepa que es html5 -->
+<html lang="es"> <!-- lenguaje -->
+
+    <head> <!-- Lo lee el navegador pero no el usuario, tiene metadatos. -->
+        <meta charset="UTF-8"> <!-- la diversidad de caracteres -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- tenga en cuenta todo el ancho de la pantalla  -->
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes"> -->
+        <title>Carlos Duran</title>
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <style>
+
+        </style> <!-- css -->
+    </head>
+    
+    <body> <!-- cuerpo del documento, todo lo que el usuario ve -->
+        <header>
+            <nav class="navbar navbar-expand-lg bg-primary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Menu Principal</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="http://www.google.cl">Externo</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Opciones
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Busqueda</button>
+                    </form>
+                  </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="spinner-border text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+
+            <ol>
+                <li>primero</li>
+                <li>segundo</li>
+                <li>tercero</li>
+                <li>cuarto</li>
+            </ol>
+     
+            <ul>
+                <li>primero</li>
+                <li>segundo</li>
+                <li>tercero</li>
+                <li>cuarto</li>
+            </ul>
+     
+            <h1>Etiquetas de texto</h1>
+            <h2>Etiquetas de texto</h2>
+            <h3>Etiquetas de texto</h3>
+            <br>
+            <h4>Etiquetas<hr>de texto</h4>
+            <h5>Etiquetas de texto</h5>
+            <h6>Etiquetas de texto</h6>
+           
+            <p>parrafo</p>
+     
+            <blockquote>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, quidem incidunt deserunt et molestias molestiae quae dolorum adipisci iusto, similique assumenda. Est voluptas dignissimos necessitatibus maxime. Quod accusantium totam aut?</p>
+            </blockquote>
+
+        </main>
+
+        <footer class="text-center bg-body-secondary">
+            <!-- Grid container -->
+            <div class="container pt-4" style="background-color: blue;">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="http://www.facebook.com" role="button" data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+                    <!-- Twitter -->
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="http://www.x.com" role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+                    <!-- Google -->
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+                    <!-- Instagram -->
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button" data-mdb-ripple-color="dark"></a><i class="fab fa-instagram"></i></a>
+                    <!-- Linkedin -->
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                    <!-- Github -->
+                    <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+              
+            <!-- Copyright -->
+             <div class="text-center p-3" style="background-color: green;">
+                © 2024 Copyright: <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous" >
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+        </script>
+    </body>
+</html>
+
